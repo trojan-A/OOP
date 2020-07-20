@@ -63,3 +63,5 @@ course = Course("Science", 2)
 # course.addstudents(Student1)
 # course.addstudents(Student2)
 print(course.getAverageGrade)
+#i am trying to Commit to Github
+
