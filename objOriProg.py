@@ -59,7 +59,7 @@ print(Student1.getGrade())
 # print(Student2.getGrade())
 # print(Student3.getGrade())
 
-# course = Course("Science", 2)
+course = Course("Science", 2)
 # course.addstudents(Student1)
 # course.addstudents(Student2)
 print(course.getAverageGrade)
