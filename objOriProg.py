@@ -56,12 +56,33 @@ Student1 = Profile("Tom", 18, int(input('enter the Marks of Student1>')))
 Student2 = Profile("Elliot", 19, int(input("Enter the marks of Student2>")))
 Student3 = Profile("Harry", 20, int(input("Enter the marks of Student3>")))
 print(Student1.getGrade())
-# print(Student2.getGrade())
-# print(Student3.getGrade())
+print(Student2.getGrade())
+print(Student3.getGrade())
 
-course = Course("Science", 2)
+# course = Course("Science", 2)
 # course.addstudents(Student1)
 # course.addstudents(Student2)
-print(course.getAverageGrade)
-#i am trying to Commit to Github
+# print(course.getAverageGrade)
 
+# Inheritence in Python
+class Pet():
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age
+
+    def showCase(self):
+        print(f"I am {self.name} and i am {self.age} years Old!")
+
+
+class Cat(Pet):
+    def speak(self):
+        print("MEOW!")
+
+class Dog(Pet):
+    def speak(self):
+        print("BARK!")
+
+p = Pet("tom", 10)
+p.showCase()
+c = Cat("Tim", 15)
+c.showCase()
