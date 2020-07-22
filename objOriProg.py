@@ -54,7 +54,7 @@ class Course():
 
 Student1 = Profile("Tom", 18, int(input('enter the Marks of Student1>')))
 Student2 = Profile("Elliot", 19, int(input("Enter the marks of Student2>")))
-Student3 = Profile("Harry", 20, int(input("Enter the marks os Student3>")))
+Student3 = Profile("Harry", 20, int(input("Enter the marks of Student3>")))
 print(Student1.getGrade())
 # print(Student2.getGrade())
 # print(Student3.getGrade())
